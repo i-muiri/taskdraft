@@ -17,10 +17,10 @@
   margin: 0;
 }
 
-.nav-buttons {
+/* .nav-buttons {
   display: flex;
   align-items: center;
-}
+} */
 
 .signup-button {
   margin-right: 10px;
@@ -44,7 +44,7 @@
 .landing-page {
   background-color: #BFD7FF;
   color: white;
-  padding: 250px;
+  padding: 150px;
   max-height: 50%;
 }
 
@@ -57,6 +57,29 @@
   font-size: 1.5rem;
   margin-bottom: 0;
 }
+
+.nav-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: auto;
+  margin-top: 40px;
+  
+}
+
+.signup-button, .signin-button {
+  margin-top: 30px;
+  font-size: 30px;
+  margin-right: 10px;
+  font-weight: 500;
+  background-color: white;
+  color: #4b4c6b;
+  border-radius: 25px;
+}
+
+
+
 
 .bottom-container {
   position: absolute;

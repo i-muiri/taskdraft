@@ -5,14 +5,19 @@ function Landingpage() {
     <div className="App">
       <nav className="navbar">
         <h1 className="logo">Task Master</h1>
-        <div className="nav-buttons">
-          <button className="signup-button">Sign Up</button>
-          <button className="signin-button">Sign In</button>
-        </div>
+       
       </nav>
       <div className="landing-page">
         <h2>Welcome to Task Master</h2>
         <p>Manage your tasks with ease using our powerful task management tool. </p>
+
+       
+
+        <div className="nav-buttons">
+          <button className="signin-button">Sign In</button>
+       
+          <button className="signup-button">Sign Up</button>
+        </div>
       </div>
       <div className="bottom-container">
         <div className="middle-container">
